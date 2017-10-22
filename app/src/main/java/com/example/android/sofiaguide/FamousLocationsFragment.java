@@ -11,6 +11,8 @@ public class FamousLocationsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_famous_locations, container, false);
+        View rootView = inflater.inflate(R.layout.location_list, container, false);
+
+        return rootView;
     }
 }

@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Sofia Guide</string>
+    <string name="name_sasa">Sasa</string>
+    <string name="address_sasa">Cherni Vruh bul. 100, Paradice Center</string>
+    <string name="description_sasa">Asian pub, fabulous food.</string>
+    <string name="category_restaurant">Eat</string>
+    <string name="category_museum">Learn</string>
+    <string name="category_famous_locations">Explore</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
