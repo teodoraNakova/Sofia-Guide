@@ -6,6 +6,30 @@
     <string name="category_restaurant">Eat</string>
     <string name="category_museum">Learn</string>
     <string name="category_famous_locations">Explore</string>
+    <string name="name_garden_house">Garden House</string>
+    <string name="address_garden_house">Vitosha bul. 69</string>
+    <string name="description_garden_house">Pizza-restaurant, nice indoor garden</string>
+    <string name="name_mr_pizza">Mr Pizza</string>
+    <string name="address_mr_pizza">Cherni Vruh bul. 38</string>
+    <string name="description_mr_pizza">Pizza, pasta, sushi and many more</string>
+    <string name="name_ndk">NDK</string>
+    <string name="address_ndk">Bulgaria bul 1463</string>
+    <string name="description_ndk">National Palace of Culture</string>
+    <string name="name_serdika">Serdika Fortress</string>
+    <string name="address_serdika">City Center</string>
+    <string name="description_serdika">The town of Serdika was founded 2000 years BC by the Thracian tribe Serdi</string>
+    <string name="address_alexander_nevsky">pl. Sveti Aleksandar Nevski</string>
+    <string name="name_alexander_nevski">Alexander Nevsky Cathedral</string>
+    <string name="description_alexander_nevski">A striking symbol of the Bulgarian capital</string>
+    <string name="name_museum_socialist">Museum of Socialist Art</string>
+    <string name="address_museum__socialist">7 Lachezar Stanchev Street</string>
+    <string name="description_museum_socialis">The museum consists of a sculptural park , where 80 works of monumental sculpture are exhibited at present.</string>
+    <string name="name_museum_earth_man">Earth and Man National Museum</string>
+    <string name="address_museum_earth_man">Cherni Vrah bul. 4</string>
+    <string name="description_museum_earth_man">Museum of minerals and mining, set in a quiet park.</string>
+    <string name="name_museum_national_history">National Museum of Natural History</string>
+    <string name="address_museum_natural_history">Tsar Osvoboditel 1 bul</string>
+    <string name="description_national_museum_history">Collection of taxidermied creatures, as well as minerals on the ground floor.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 </resources>
