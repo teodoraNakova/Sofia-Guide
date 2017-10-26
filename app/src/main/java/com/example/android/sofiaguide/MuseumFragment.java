@@ -22,7 +22,7 @@ public class MuseumFragment extends Fragment {
         museums.add(new Location(R.string.name_museum_national_history, R.string.address_museum_natural_history, R.string.description_national_museum_history, R.drawable.museum_national_museum_history));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), museums);
-        ListView listView = rootView.findViewById(R.id.list);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         return rootView;

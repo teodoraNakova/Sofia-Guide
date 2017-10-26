@@ -10,8 +10,9 @@ public class SimpleFragmentPagerAdapter extends android.support.v4.app.FragmentP
 
     private Context mContext;
 
-    public SimpleFragmentPagerAdapter(FragmentManager fm) {
+    public SimpleFragmentPagerAdapter(Context context, FragmentManager fm) {
         super(fm);
+        mContext = context;
     }
 
     @Override

@@ -22,7 +22,7 @@ public class FamousLocationsFragment extends Fragment {
         famousLocations.add(new Location(R.string.name_alexander_nevski, R.string.address_alexander_nevsky, R.string.description_alexander_nevski, R.drawable.alexander_nevski));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), famousLocations);
-        ListView listView = rootView.findViewById(R.id.list);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         return rootView;

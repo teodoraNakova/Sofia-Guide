@@ -30,16 +30,16 @@ public class LocationAdapter extends ArrayAdapter<Location>{
 
         Location currentLocation = getItem(position);
 
-        TextView nameTextView = listItemView.findViewById(R.id.location_name);
+        TextView nameTextView = (TextView) listItemView.findViewById(R.id.location_name);
         nameTextView.setText(currentLocation.getmName());
 
-        TextView addressTextView = listItemView.findViewById(R.id.location_address);
+        TextView addressTextView = (TextView) listItemView.findViewById(R.id.location_address);
         addressTextView.setText(currentLocation.getmAddress());
 
-        TextView descriptionTextView = listItemView.findViewById(R.id.location_description);
+        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.location_description);
         descriptionTextView.setText(currentLocation.getmDescription());
 
-        ImageView imageView = listItemView.findViewById(R.id.image_view);
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image_view);
         imageView.setImageResource(currentLocation.getmImageId());
 
         return listItemView;

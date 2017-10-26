@@ -22,7 +22,7 @@ public class RestaurantFragment extends Fragment {
         restaurants.add(new Location(R.string.name_mr_pizza, R.string.address_mr_pizza, R.string.description_mr_pizza, R.drawable.mr_pizza));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), restaurants);
-        ListView listView = rootView.findViewById(R.id.list);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         return rootView;
